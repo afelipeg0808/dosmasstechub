@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> 2Mass - </title>
+
+        <!-- ALL CSS -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+        <link rel="stylesheet" type="text/css" href="css/owl.theme.css">
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+        <link rel="stylesheet" type="text/css" href="css/slick.css">
+        <link rel="stylesheet" type="text/css" href="css/flaticon.css">
+        <link rel="stylesheet" type="text/css" href="css/settings.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" type="text/css" href="css/style.css" >
+        <link rel="stylesheet" type="text/css" href="css/preset.css" >
+        <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+        <!--Segment Snipped-->
+        <script>
+            !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}analytics.load=function(key,e){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=e};analytics._writeKey="uRca2HRKdDTTGarbglTl8SIoS83TaAO7";analytics.SNIPPET_VERSION="4.13.2";
+            analytics.load("uRca2HRKdDTTGarbglTl8SIoS83TaAO7");
+            analytics.page();
+            }}();
+        </script>
+        <!--Segment Snipped-->
+        
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-9DV4G4SQGN"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-9DV4G4SQGN');
+        </script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+
+        <!--[if lt IE 9]>
+              <script src="js/html5shiv.js"></script>
+              <script src="js/respond.min.js"></script>
+          <![endif]-->
+
+        <!-- Favicon Icon -->
+        <link rel="icon"  type="image/png" href="images/favicon.png">
+        <!-- Favicon Icon -->
+
+        <!--Amplitude-->
+        <script type="text/javascript">
+            (function(e,t){var n=e.amplitude||{_q:[],_iq:{}};var r=t.createElement("script")
+            ;r.type="text/javascript"
+            ;r.integrity="sha384-AUydfiSe1Ky1zDY/KCJrSDvNC/Rb1TyoiQ10xfyB/LUYw8GOwJ07SUTa9SxvinL2"
+            ;r.crossOrigin="anonymous";r.async=true
+            ;r.src="https://cdn.amplitude.com/libs/amplitude-7.4.1-min.gz.js"
+            ;r.onload=function(){if(!e.amplitude.runQueuedFunctions){
+            console.log("[Amplitude] Error: could not load SDK")}}
+            ;var i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)
+            ;function s(e,t){e.prototype[t]=function(){
+            this._q.push([t].concat(Array.prototype.slice.call(arguments,0)));return this}}
+            var o=function(){this._q=[];return this}
+            ;var a=["add","append","clearAll","prepend","set","setOnce","unset"]
+            ;for(var c=0;c<a.length;c++){s(o,a[c])}n.Identify=o;var u=function(){this._q=[]
+            ;return this}
+            ;var l=["setProductId","setQuantity","setPrice","setRevenueType","setEventProperties"]
+            ;for(var p=0;p<l.length;p++){s(u,l[p])}n.Revenue=u
+            ;var d=["init","logEvent","logRevenue","setUserId","setUserProperties","setOptOut","setVersionName","setDomain","setDeviceId","enableTracking","setGlobalUserProperties","identify","clearUserProperties","setGroup","logRevenueV2","regenerateDeviceId","groupIdentify","onInit","logEventWithTimestamp","logEventWithGroups","setSessionId","resetSessionId"]
+            ;function v(e){function t(t){e[t]=function(){
+            e._q.push([t].concat(Array.prototype.slice.call(arguments,0)))}}
+            for(var n=0;n<d.length;n++){t(d[n])}}v(n);n.getInstance=function(e){
+            e=(!e||e.length===0?"$default_instance":e).toLowerCase()
+            ;if(!n._iq.hasOwnProperty(e)){n._iq[e]={_q:[]};v(n._iq[e])}return n._iq[e]}
+            ;e.amplitude=n})(window,document);
+            
+            amplitude.getInstance().init("388239c8d61bacd939f7f67da386b1c5");
+            </script>
+        <!--Amplitude-->
+
+    </head>
+    <body>
+        <!--PRELOADER START-->
+        <div class="preloader">
+            <div class="loader">
+                <img src="images/loader.gif" alt="">
+            </div>
+        </div>
+        <!--PRELOADER END-->
+
+        <!--HEADER START-->
+        <header class="header isSticky" id="header">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-2 noPaddingLeft">
+                        <div class="logo">
+                            <a href=""><img src="images/logo.png" alt=""></a>
+                        </div>
+                        <div class="logo logoText hidden">
+                            <h1><a href="">2mass</a></h1>
+                        </div>
+                        <div class="stickyLogo">
+                            <a href=""><img src="images/flogo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <nav class="mainMenu">
+                            <div class="mobileBar">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <ul>
+                                <li class="scroll has-menu-items active"><a href="#slider">Home</a></li>
+                                <li class="scroll"><a href="#about">About us</a></li>
+                                <li class="scroll"><a href="#team">Team</a></li>
+                                <li class="scroll"><a href="#whatwe">What we do</a></li>
+                                <li class="scroll"><a href="#ourwork">Work</a></li>
+                                <li class="scroll"><a href="#contact">Get in touch</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-md-2 hidden-sm md_class noPaddingRight">
+                        <div class="callus">
+                            <p>call us <b>1.305.878.1588</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--HEADER END-->
+
+        <!--SLIDER START-->
+        <section class="slider slider2" id="slider">
+            <div class="tp-banner">
+                <ul>
+                    <li data-transition="cube" data-slotamount="7" data-masterspeed="1000">
+                        <img src="images/slider/s21.jpg"  alt=""> 
+                        <div class="tp-caption sfb"
+                             data-x="center"
+                             data-y="center"
+                             data-hoffset="0"
+                             data-voffset="-40"
+                             data-speed="1600"
+                             data-start="1000"
+                             data-easing="easeInOutCubic">
+                            <div class="revCon">
+                                <h5 class="text-uppercase color_white">our driver is solve with outcomes</h5>
+                            </div>
+                        </div>
+                        <div class="tp-caption sfb"
+                             data-x="center"
+                             data-y="center"
+                             data-hoffset="0"
+                             data-voffset="35"
+                             data-speed="2000"
+                             data-start="1500"
+                             data-easing="Power4.easeOut">
+                            <div class="revCon">
+                                <h2 class="lead color_white">Personalization at scale Techub.</h2>
+                            </div>
+                        </div>
+                        <div class="tp-caption sfb"
+                             data-x="center"
+                             data-y="center"
+                             data-hoffset="0"
+                             data-voffset="148"
+                             data-speed="2000"
+                             data-start="2000"
+                             data-easing="Power4.easeOut">
+                            <div class="revCon revBtn home_page2">
+                                <a href="#" class="bes_button2"><span>Learn more about us <i class="flaticon-arrows"></i></span></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li data-transition="cube" data-slotamount="7" data-masterspeed="1000">
+                        <img src="images/slider/s22.jpg"  alt=""> 
+                        <div class="tp-caption sfb"
+                             data-x="center"
+                             data-y="center"
+                             data-hoffset="0"
+                             data-voffset="-40"
+                             data-speed="1600"
+                             data-start="1000"
+                             data-easing="easeInOutCubic">
+                            <div class="revCon">
+                                <h5 class="text-uppercase color_white">our driver is solve with outcomes</h5>
+                            </div>
+                        </div>
+                        <div class="tp-caption sfb"
+                             data-x="center"
+                             data-y="center"
+                             data-hoffset="0"
+                             data-voffset="35"
+                             data-speed="2000"
+                             data-start="1500"
+                             data-easing="Power4.easeOut">
+                            <div class="revCon">
+                                <h2 class="lead color_white">Personalization at scale Techub.</h2>
+                            </div>
+                        </div>
+                        <div class="tp-caption sfb"
+                             data-x="center"
+                             data-y="center"
+                             data-hoffset="0"
+                             data-voffset="148"
+                             data-speed="2000"
+                             data-start="2000"
+                             data-easing="Power4.easeOut">
+                            <div class="revCon revBtn home_page2">
+                                <a href="#" class="bes_button2"><span>Learn more about us <i class="flaticon-arrows"></i></span></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li data-transition="cube" data-slotamount="7" data-masterspeed="1000">
+                        <img src="images/slider/s23.jpg"  alt=""> 
+                        <div class="tp-caption sfb"
+                             data-x="center"
+                             data-y="center"
+                             data-hoffset="0"
+                             data-voffset="-40"
+                             data-speed="1600"
+                             data-start="1000"
+                             data-easing="easeInOutCubic">
+                            <div class="revCon">
+                                <h5 class="text-uppercase color_white">our driver is solve with outcomes</h5>
+                            </div>
+                        </div>
+                        <div class="tp-caption sfb"
+                             data-x="center"
+                             data-y="center"
+                             data-hoffset="0"
+                             data-voffset="35"
+                             data-speed="2000"
+                             data-start="1500"
+                             data-easing="Power4.easeOut">
+                            <div class="revCon">
+                                <h2 class="lead color_white">Personalization at scale Techub.</h2>
+                            </div>
+                        </div>
+                        <div class="tp-caption sfb"
+                             data-x="center"
+                             data-y="center"
+                             data-hoffset="0"
+                             data-voffset="148"
+                             data-speed="2000"
+                             data-start="2000"
+                             data-easing="Power4.easeOut">
+                            <div class="revCon revBtn home_page2">
+                                <a href="#" class="bes_button2"><span>Learn more about us <i class="flaticon-arrows"></i></span></a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="mouseSlider">
+                <a href="#team" class="normal"><img src="images/mouse.png" alt=""></a>
+                <a href="#team" class="hover"><img src="images/mouseh2.png" alt=""></a>
+            </div>
+        </section>
+        <!--SLIDER END-->
+
+        <!--ABOUT START-->
+        <section class="about about2" id="about">
+            <div class="perelaxBg1"></div>
+            <div class="aboutTop home_page2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="abcontentT">
+                                <h5 class="text-uppercase magenta bold">discover 2mass</h5>
+                                <h3 class="lead light">
+                                    a techub to deliver personalized end to end <br> connected experiences to boost growth.
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="abBigtitle home_page2">
+                <h1 class="lead">Tech.Data.Growth</h1>
+            </div>
+            <div class="aboutBottom home_page2">
+                <div class="perelaxBg2"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-left">
+                            <div class="abcontentB noPadding">
+                                <div class="row">
+                                    <div class="col-lg-5">
+                                        <h5 class="lead bold">We take a bottom-line approach to each project.</h5>
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <h3 class="light">
+                                            Our clients consistently see increased outcomes, more revenue, loyalty and new leads thanks to our work.
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ourServices">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="singleService">
+                                <div class="serImg">
+                                    <img src="images/services/1.png" alt="">
+                                </div>
+                                <h6 class="lead text-uppercase bold">connection</h6>
+                                <p>We redesign the architecture for connecting business, customers, and suppliers.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="singleService">
+                                <div class="serImg">
+                                    <img src="images/services/2.png" alt="">
+                                </div>
+                                <h6 class="lead text-uppercase bold">revenue model</h6>
+                                <p>We help business to boost their revenue orchestrating omnichannel experiences.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="singleService">
+                                <div class="serImg">
+                                    <img src="images/services/3.png" alt="">
+                                </div>
+                                <h6 class="lead text-uppercase bold">infrastructure</h6>
+                                <p>We build a team around your techstack and provide our clients with best in class technology.</p>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-lg-12 text-center">
+                            <a href="#" class="bes_button2">Learn more about us <i class="flaticon-arrows"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--ABOUT END-->
+
+        <!--TEAM START-->
+        <section class="team" id="team">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="sectionTitle epr200">
+                            <h5 class="magenta text-uppercase bold">meet the team</h5>
+                            <h3 class="lead">Powerful tech & data services for your modern digital roadmap needs.</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="teamTop">
+                        <div class="col-sm-6">
+                            <div class="teamBig">
+                                <img src="images/team/1b.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="testmonial" id="testmonial">
+                                <div class="singleTestm">
+                                    <p>
+                                        The reason for our existence is to help large, SMEs, startups and agencies in LATAM to solve how to create competitive advantage by building a connected ecosystem.
+                                    </p>
+                                    <div class="teamDeg">
+                                        <h4 class="magenta">Andres Gutiérrez</h4>
+                                        <p>Chief Product Officer & Partner</p>
+                                    </div>
+                                </div>
+                                <div class="singleTestm">
+                                    <p>
+                                        The reason for our existence is to help large, SMEs, startups and agencies in LATAM to solve how to create competitive advantage by building a connected ecosystem.
+                                    </p>
+                                    <div class="teamDeg">
+                                        <h4 class="magenta">Andres Gutiérrez</h4>
+                                        <p>Chief Product Officer & Partner</p>
+                                    </div>
+                                </div>
+                                <div class="singleTestm">
+                                    <p>
+                                        The reason for our existence is to help large, SMEs, startups and agencies in LATAM to solve how to create competitive advantage by building a connected ecosystem.
+                                    </p>
+                                    <div class="teamDeg">
+                                        <h4 class="magenta">Andres Gutiérrez</h4>
+                                        <p>Chief Product Officer & Partner</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3 sm_class">
+                        <div class="singleTeam">
+                            <img src="images/team/1.jpg" alt="">
+                            <div class="teamDeg">
+                                <h4>Santiago Villegas</h4>
+                                <p>Chief Commercial Officer & Partner</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 sm_class">
+                        <div class="singleTeam">
+                            <img src="images/team/2.jpg" alt="">
+                            <div class="teamDeg">
+                                <h4>Juan Pablo Buitron</h4>
+                                <p>Senior Product Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 sm_class">
+                        <div class="singleTeam">
+                            <img src="images/team/3.jpg" alt="">
+                            <div class="teamDeg">
+                                <h4>Viviana Ramirez</h4>
+                                <p>Data Engineer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 sm_class">
+                        <div class="singleTeam">
+                            <img src="images/team/4.jpg" alt="">
+                            <div class="teamDeg">
+                                <h4>Carlos Salazar</h4>
+                                <p>CTO & Solutions Architech</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--TEAM END-->
+
+        <!--WHAT WE DO START-->
+        <section class="whatwe home_page2" id="whatwe">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1 text-center">
+                        <div class="wedoContent">
+                            <h5 class="text-uppercase color_white bold">what we do</h5>
+                            <h2 class="lead color_white">we help businesses evolve <span>&</span> grow.</h2>
+                            <a href="#" class="bes_button2">Learn more about us <i class="flaticon-arrows"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--WHAT WE DO END-->
+
+        <!--OUR WORK START-->
+        <section class="ourwork" id="ourwork">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="sectionTitle bigTitle">
+                            <h5 class="magenta text-uppercase bold">meet our use cases</h5>
+                            <h2 class="lead">we create engaging interactions.</h2>
+                            <p>We believe in coming up with original ideas and turning them into digital work that is both innovative and measurable.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-8 noPadding">
+                        <div class="single_folio single_folio2">
+                                <div class="polioThumb">
+                                    <div class="overlayHover"></div>
+                                    <img src="images/work/h2/1.jpg" alt="">
+                                </div>
+                            </a>
+                            <div class="folio_hover2">
+                                <h6 class="color_yellow text-uppercase bold">Recent Casestudy</h6>
+                                <h3 class="lead color_white semi_Bold">Increase Frequency Pre-Sales.</h3>
+                                <div class="workTag">
+                                    <a href="#" tabindex="0">Sales Traditional channel</a>/
+                                    <a href="#" tabindex="0">Whatsapp.Twilio.AWS.SAP-HANA</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 noPadding">
+                        <div class="single_folio single_folio2">
+                            <a href="">
+                                <div class="polioThumb">
+                                    <div class="overlayHover"></div>
+                                    <img src="images/work/h2/3.png" alt="">
+                                </div>
+                            </a>
+                            <div class="folio_hover2">
+                                <h6 class="color_yellow text-uppercase bold">Recent Casestudy</h6>
+                                <h3 class="lead color_white semi_Bold">RFM rule based automated omnichannel journey</h3>
+                                <div class="workTag">
+                                    <a href="#" tabindex="0">CRM</a>/
+                                    <a href="#" tabindex="0">SMS.Email.Voice.Push</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 noPadding">
+                        <div class="single_folio single_folio2">
+                            <a href="">
+                                <div class="polioThumb">
+                                    <div class="overlayHover"></div>
+                                    <img src="images/work/h2/4.png" alt="">
+                                </div>
+                            </a>
+                            <div class="folio_hover2">
+                                <h6 class="color_yellow text-uppercase bold">Recent Casestudy</h6>
+                                <h3 class="lead color_white semi_Bold">Data Governance & Identity Resolution</h3>
+                                <div class="workTag">
+                                    <a href="#" tabindex="0">Marketing</a>/
+                                    <a href="#" tabindex="0">Platform and Solution Architecture</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 noPadding">
+                        <div class="single_folio single_folio2">
+                            <a href="">
+                                <div class="polioThumb">
+                                    <div class="overlayHover"></div>
+                                    <img src="images/work/h2/5.png" alt="">
+                                </div>
+                            </a>
+                            <div class="folio_hover2">
+                                <h6 class="color_yellow text-uppercase bold">Recent Casestudy</h6>
+                                <h3 class="lead color_white semi_Bold">Near Real Time BigData Analytics</h3>
+                                <div class="workTag">
+                                    <a href="#" tabindex="0">Business Intelligence</a>/
+                                    <a href="#" tabindex="0">APIs.AWS.Tableau</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 noPadding">
+                        <div class="single_folio single_folio2">
+                            <a href="">
+                                <div class="polioThumb">
+                                    <div class="overlayHover"></div>
+                                    <img src="images/work/h2/6.png" alt="">
+                                </div>
+                            </a>
+                            <div class="folio_hover2">
+                                <h6 class="color_yellow text-uppercase bold">Recent Casestudy</h6>
+                                <h3 class="lead color_white semi_Bold">Process Automation</h3>
+                                <div class="workTag">
+                                    <a href="#" tabindex="0">Operations</a>/
+                                    <a href="#" tabindex="0">Integration Platform as a Service</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--OUR WORK END-->
+
+        <!--CHOOSE US START-->
+        <section class="chooseus home_page2" id="chooseus">
+            <div class="perelaxBg3"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="sectionTitle bigTitle2">
+                            <h5 class="magenta text-uppercase bold">why choose us?</h5>
+                            <h2 class="lead">we dont just do technology, we build revenue models.</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="chooseUsContent">
+                            <h3 class="magenta normal">Our team works shoulder-to-shoulder, ensuring a project is never created in isolation.</h3>
+                            <p>Every project has its own unique goals and vision. Whatever your project demands, our extended network of strategists, data engineers and technology specialists is always eager to pitch in. We know it helps to know good people.</p>
+                            <div class="signatureandname">
+                                <h4>2mass</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="imagesDiv chooseUsImg">
+                            <img src="images/choose.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--CHOOSE US END-->
+
+        <!--TESTMONIAL START-->
+        <section class="testmonialSec home_page2 overlayw10" id="testmonialSec">
+            <div class="perelaxBg4"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div id="testmonialCaro" class="home_page2">
+                            <div class="singleTestmn">
+                                <p>In a connected world, companies live and die on their ability to create great customer experiences. Their knowledge, functional and practical framework really help us to maintaining a competitive advantage</p>
+                                <div class="testAut">
+                                    <h4>Nicolás Ramirez</h4>
+                                    <p>SVP Sales - Colombia</p>
+                                </div>
+                            </div>
+                            <div class="singleTestmn">
+                                <p>For more than 3 years of tests looking for the way to start the path of the company's digital transformation; We found in 2mass the strategic ally that from beginning to end helped us find our way.</p>
+                                <div class="testAut">
+                                    <h4>Patricia Díaz</h4>
+                                    <p>CMO - Mexico</p>
+                                </div>
+                            </div>
+                            <div class="singleTestmn">
+                                <p>The most astonishing was how a single company brings together all the knowledge capabilities of income generation, marketing, sales, customer service and technology, in a single point. Its interdisciplinary teams allow to have a clear strategy and execution of end-to-end integration.</p>
+                                <div class="testAut">
+                                    <h4>Julio Ortiz</h4>
+                                    <p>CEO - USA</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--TESTMONIAL END-->
+
+        <!--CLIENT START-->
+        <section class="client home_page2" id="client">
+            <div class="perelaxBg5"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="sectionTitle bigTitle3">
+                            <h5 class="text-uppercase bold">who we worked for</h5>
+                            <h2 class="lead">Our client experience</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-sm-4">
+                        <div class="singleClient">
+                            <a href="#"><img src="images/client/1.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-4">
+                        <div class="singleClient">
+                            <a href="#"><img src="images/client/2.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-4">
+                        <div class="singleClient">
+                            <a href="#"><img src="images/client/3.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-4">
+                        <div class="singleClient">
+                            <a href="#"><img src="images/client/4.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-4">
+                        <div class="singleClient">
+                            <a href="#"><img src="images/client/5.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-4">
+                        <div class="singleClient">
+                            <a href="#"><img src="images/client/6.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-4">
+                        <div class="singleClient">
+                            <a href="#"><img src="images/client/7.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-4">
+                        <div class="singleClient">
+                            <a href="#"><img src="images/client/8.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-4">
+                        <div class="singleClient">
+                            <a href="#"><img src="images/client/9.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-4">
+                        <div class="singleClient">
+                            <a href="#"><img src="images/client/10.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-4">
+                        <div class="singleClient">
+                            <a href="#"><img src="images/client/11.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-4">
+                        <div class="singleClient">
+                            <a href="#"><img src="images/client/12.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-4">
+                        <div class="singleClient">
+                            <a href="#"><img src="images/client/13.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-4">
+                        <div class="singleClient">
+                            <a href="#"><img src="images/client/14.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-4">
+                        <div class="singleClient">
+                            <a href="#"><img src="images/client/15.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-4">
+                        <div class="singleClient">
+                            <a href="#"><img src="images/client/16.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--CLIENT END-->
+
+        <!--SAY HELLO START-->
+        <section class="sayhello" id="sayhello">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="sectionTitle bigTitle2">
+                            <h5 class="text-uppercase bold">we would love to hear from you</h5>
+                            <h2 class="lead">say hello!</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="singleSay saypaddingR text-center">
+                            <div class="sayThumb">
+                                <img src="images/say/2.jpg" alt="">
+                                <h3 class="text-uppercase">Miami</h3>
+                            </div>  
+                            <div class="sayDec">
+                                <h6 class="bold text-uppercase">Miami office</h6>
+                                <p>100 Brickell Ave.</p>
+                                <p>Suite 550, FL 3313</p>
+                                <h6 class="bold">1.305.878.1588</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="singleSay saypaddingl text-center">
+                            <div class="sayThumb">
+                                <img src="images/say/3.jpg" alt="">
+                                <h3 class="text-uppercase">Mexico</h3>
+                            </div>
+                            <div class="sayDec">
+                                <h6 class="bold text-uppercase">CDMX office</h6>
+                                <p>Carlos Dickens</p>
+                                <p>Polanco - 11550</p>
+                                <h6 class="bold">52.55.5292.0180</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="singleSay saypaddingl text-center">
+                            <div class="sayThumb">
+                                <img src="images/say/1.jpg" alt="">
+                                <h3 class="text-uppercase">Colombia</h3>
+                            </div>
+                            <div class="sayDec">
+                                <h6 class="bold text-uppercase">Bogotá office</h6>
+                                <p>Calle 110 - 9.25</p>
+                                <p>Torre Pacific Office 704</p>
+                                <h6 class="bold">57.257.56.59</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--SAY HELLO END-->
+
+        <!--CONTACT START-->
+        <section class="contact home_page2" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="contactInner">
+                            <h3 class="magenta light">Have a question? or just say hello!</h3>
+                            <div class="contactForm">
+                                <form action="#" method="post" id="contactForm">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="single_form home_page2">
+                                                <label for="con_name">Name:</label>
+                                                <input type="text" name="con_name" id="con_name" class="required">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="single_form home_page2">
+                                                <label for="con_phone">Phone:</label>
+                                                <input type="text" name="con_phone" id="con_phone" class="required">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="single_form home_page2">
+                                                <label for="con_email">Email:</label>
+                                                <input type="email" name="con_email" id="con_email" class="required">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="single_form home_page2">
+                                                <label for="con_company">Company:</label>
+                                                <input type="text" name="con_company" id="con_company" class="required">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <div class="single_form home_page2">
+                                                <label for="con_msg">Message:</label>
+                                                <textarea id="con_msg" name="con_msg" class="required"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 text-center">
+                                            <input type="submit" value="SEND" id="con_submit" class="bes_button2">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--CONTACT END-->
+
+        <!--FOOTER START-->
+        <footer class="footer bggreay" id="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <aside class="widget">
+                            <div class="textWidget">
+                                <div class="flogow">
+                                    <div class="flogo">
+                                        <a href=""><img src="images/logo.png" alt=""></a>
+                                    </div>
+                                    <div class="logo logoText hidden">
+                                        <h1><a href="">bespoke</a></h1>
+                                    </div>
+                                </div>
+                                <h3 class="widgetTitle">About <b>2mass</b></h3>
+                                <p>Our purpose is to help transform industries by transforming companies. We always seek to connect the entire ecosystem of our clients, consumer data, using cloud computing and build an end-to-end model of strategies, products and results that impact the business.</p>
+                                <div class="socialIcon">
+                                    <a class="fb" href="#"><i class="fa fa-facebook"></i></a>
+                                    <a class="tw" href="#"><i class="fa fa-twitter"></i></a>
+                                    <a class="gp" href="#"><i class="fa fa-google-plus"></i></a>
+                                    <a class="dr" href="#"><i class="fa fa-dribbble"></i></a>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="col-sm-6">
+                        <aside class="widget">
+                            <div class="newsletterwid">
+                                <h3 class="widgetTitle">Newsletter <b>Signup</b></h3>
+                                <div class="newsletter">
+                                    <form action="#" method="post" id="subscriptForm">
+                                        <input type="email" name="sub_email" id="sub_email" placeholder="Enter your email address.">
+                                        <input type="submit" name="sub_submit" id="sub_submit" value="SUBSCRIBE">
+                                    </form>
+                                </div>
+                                <div class="fooInfo">
+                                    <p><i class="flaticon-pin"></i><b>Head office:</b> 100 Brickell Ave. Suite 550, FL 33131</p>
+                                    <p><i class="flaticon-technology"></i><b>1.305.878.1588</b></p>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--FOOTER END-->
+
+        <!--COPY RIGHT START-->
+        <section class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <p class="copyPera">&COPY; 2021 2mass. All Rights Reserved. dosmass.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--COPY RIGHT END-->
+
+        <div class="subscriptionSuccess">
+            <div class="subsNotice">
+                <i class="fa fa-thumbs-o-up closers"></i>
+                <div class="clearfix"></div>
+                <p class="closers">Subscription Request Successfully placed!</p>
+            </div>
+        </div>
+        <div class="contactSuccess">
+            <div class="consNotice">
+                <i class="fa fa-thumbs-o-up closers"></i>
+                <div class="clearfix"></div>
+                <p class="closers">Your Message successfully sent!</p>
+            </div>
+        </div>
+
+
+        <a id="backToTop" href="#"><i class="fa fa-angle-double-up"></i></a>
+
+        <!-- ALL JS -->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/owl.carousel.js"></script>
+        <script type="text/javascript" src="js/slick.js"></script>
+        <script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
+        <script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
+        <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+        <script type="text/javascript" src="js/jquery.localscroll-1.2.7-min.js"></script>
+        <script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
+        <script type="text/javascript" src="js/theme.js"></script>
+    </body>
+</html>
+
+
